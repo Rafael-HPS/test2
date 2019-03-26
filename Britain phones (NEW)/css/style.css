@@ -1,0 +1,477 @@
+header{
+    max-height: 131px;
+    min-width: 100px;
+    min-height: 20px;
+    background-color: rgba(175,  0,  0,1);
+    padding: 15px;
+    background-origin: padding-box;
+    display: flex;
+    position: relative;
+}
+.logo {
+    min-width: 100px;
+    min-height: 50px;
+}
+.search-box{
+    display: inline-flex;
+    max-height: 30px;
+    border-radius: 25px;
+    margin-right: 30%;
+    position: relative;
+    padding: 0px;
+}
+
+.navbar{
+    float: left;
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0.5px 0px;
+    overflow: hidden;
+    background-color:rgba(  2,114,129,1);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  #grid { 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-gap: 2vw;
+    max-width: 70%;
+    max-height: auto;
+    position: relative;
+    margin: 6px;
+    margin-top: 350px;
+    padding: 0px;
+    margin-bottom: 50px;
+    }
+    #grid > div {
+        font-size: auto;
+        border: 1px solid;
+        border-color: rgba(131, 131, 131, 0.233);
+        padding: 0em;
+        background:white;
+        text-align: center;
+      }
+      a{ 
+        text-decoration: none;  
+        font-size: 16px;  
+        margin: 1px;
+        padding: 1px;
+        color: rgb(0, 0, 129);
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        
+    }   
+
+    .phones:hover {
+        color: rgb(30, 30, 148);
+    }
+    
+.price {
+    font-family: 'Courier New', Courier, monospace;
+}
+ .d-block{
+     margin: 10px 10px;
+     padding: 10px 10px;
+ }
+
+ .css-carousal{
+     overflow: hidden;
+ }
+ .css-carousal .css-img{
+     margin: 5px;
+     width: 60%;
+     height: 300px;
+     max-width: 100%;
+     max-height: auto;
+     position: absolute;
+     opacity: 0;
+     animation-name: css-animation-fade;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+ } 
+ 
+ .css-carousal .css-img:nth-child(2){
+     animation-delay: 5s;
+
+ }
+ .css-carousal .css-img:nth-child(3){
+    animation-delay: 10s;
+}
+.css-carousal .css-img:nth-child(4){
+    animation-delay: 15s;
+}
+
+.googleMap {
+    width:100%;
+    height:400px;
+}
+
+@keyframes  css-animation-fade{
+     0%{opacity: 0;}
+     25%{opacity: 1;}
+     50%{opacity: 1}
+     75%{opacity: 1;}
+     100%{opacity: 0;}
+     
+ } 
+ .css-carousil{
+    overflow: hidden;
+}
+.css-carousil .css-img{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 20%;
+    height: 300px;
+    right: 1%;
+    max-width: 20%;
+    max-height: auto;
+    position: absolute;
+    opacity: 0;
+    animation-name: css-animation-fade;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+} 
+
+.css-carousil .css-img:nth-child(2){
+    animation-delay: 6s;
+
+}
+.css-carousil .css-img:nth-child(3){
+   animation-delay: 10s;
+}
+
+
+@-webkit-keyframes  css-animation-fade{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+    
+} 
+ .css-carousel{
+    overflow: hidden;
+}
+.css-carousel .css-img{
+    margin-top: 450px;
+    margin-right: 10px;
+    width: 20%;
+    height: 300px;
+    right: 1%;
+    max-width: 20%;
+    max-height: auto;
+    position: absolute;
+    opacity: 0;
+    animation-name: css-animation-fade;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+} 
+
+.css-carousel .css-img:nth-child(2){
+    animation-delay: 6s;
+
+}
+.css-carousel .css-img:nth-child(3){
+   animation-delay: 10s;
+}
+
+
+@-webkit-keyframes  css-animation-fade{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+    
+} 
+
+.css-carousol{
+    overflow: hidden;
+}
+.css-carousol .css-img{
+    margin-top: 900px;
+    margin-right: 10px;
+    width: 20%;
+    height: 300px;
+    right: 1%;
+    max-width: 20%;
+    max-height: auto;
+    position: absolute;
+    opacity: 0;
+    animation-name: css-animation-fade;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+} 
+
+.css-carousol .css-img:nth-child(2){
+    animation-delay: 6s;
+
+}
+.css-carousol .css-img:nth-child(3){
+   animation-delay: 10s;
+}
+
+
+@-webkit-keyframes  css-animation-fade{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+    
+} 
+
+footer{
+    background-color: rgba(175,  0,  0,1);
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-position: auto;
+    background-size: 100% 300px;
+    position: relative;
+    bottom: 0px;
+    }
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  min-height: 500px;
+  position: relative;
+  margin: 80px;
+  background-color: rgb(204, 197, 197);
+  align-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+iframe {
+   margin: 50px;
+}
+
+.text-box{
+    display: inline;
+}
+/* The dots/bullets/indicators */
+.dot {
+  align-content: center;
+  position: relative;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.alert {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    align-content: center;
+  }
+
+  .gif {
+    align-content: center;
+    max-width: 90%;
+    margin: 5px;
+}
+
+}
+.paragraphs {
+width: 50%;
+border: 3px solid, #717171;
+margin: 2em;
+}
+.about {
+margin: 10px;
+text-align: center;
+}
+.icu-img {
+    margin: 50px;
+    text-align: center;
+}
+.contact-details {
+    margin: 20px;
+}
+  /* The close button */
+  .messagebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .messagebtn:hover {
+    color: black;
+  }
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+@media (max-width: 600px) {
+
+.css-carousol, .css-carousil, .css-carousel {
+    display: none;
+}
+.css-carousal .css-img {
+width: 98%;
+}
+#grid {
+    width: 98%;
+    align-content: center;
+}
+.search-btn {
+    width: 5px;
+}
+.header {
+    width: 100%;
+    height: 190px;
+}
+ #logo2 {
+    width: 180px;
+    height: 50px;
+}
+.telephone {
+    width: 90%;
+    align-self: center;
+}
+.slideshow-container {
+    max-width: 90%;
+    min-height: 200px;
+    position: relative;
+    margin: 20px;
+    background-color: rgb(204, 197, 197);
+    align-content: center;
+  }
+ iframe {
+     width: 100%;
+     max-height: 200px;
+     margin: 10px;
+ }
+ .text-box {
+     display: unset;
+     max-width: 100%;
+     max-height: 400px;
+     margin: 10px;
+ }
+}
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    #logo2 {
+        width: 180px;
+        height: 50px;
+    }
+    #grid {
+        width: 80%;
+    }
+    #css-carousal {
+        width: 100%;
+    }
+    .header {
+        height: 220px;
+    }
+    .css-carousel, .css-carousil, .css-carousol{
+        width: 40%;
+    }
+}
+
+.mySlides {
+    display: flex;
+    flex-direction: row;
+}

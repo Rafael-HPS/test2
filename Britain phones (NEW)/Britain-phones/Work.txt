@@ -1,0 +1,11 @@
+WEBSITE FIX LIST:
+
+- Navbar
+- Carousal (adapt the width to 100% when opening the website on mobile devices)
+- Grid (Make the grid be only 1 item per paragraph on mobile devices)
+- 
+
+WORK LIST:
+
+- Make linked pages destinations.
+-
